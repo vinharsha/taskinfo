@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task
+[
+<!ELEMENT task (tname,description,sdate,enddte,priority,status,user)>
+<!ELEMENT user (name,email,phone)>
+<!ELEMENT tname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT sdate (#PCDATA)>
+<!ELEMENT enddate (#PCDATA)>
+<!ELEMENT priority (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
+<taskinfo>
+<task>
+     <tname>WT PROJECT</tname>
+	 <description>web technologies project to be completed by time</description>
+	 <sdate>5/03/2018</sdate>
+	 <enddate>6/03/2018</enddate>
+	 <priority>Firt priority is to complete project</priority>
+	 <status>Task under process</status>
+     <user>
+	   <name>HARSHA</name>
+       <email>harsha@gmail.com</email>
+       <phone>9494949494</phone>
+     </user>	 
+</task>
+</taskinfo>
